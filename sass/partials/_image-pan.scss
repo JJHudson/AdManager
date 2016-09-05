@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    Image Pan
+\*------------------------------------*/
+
+.image-pan-thumb{
+    display: block;
+    float: left;
+
+    cursor: pointer;
+
+    &.active{
+        opacity: 0.25;
+    }
+}

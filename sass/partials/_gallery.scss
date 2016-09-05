@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    Gallery
+\*------------------------------------*/
+
+.gallery{
+	position: relative;
+	height: 300px;
+}
+
+	.gallery-item{
+		position: absolute;
+		width: 100%;
+
+		text-align: center;
+	}
+
+	.gallery-btn{
+		position: absolute;
+		top: 0;
+		z-index: 9999;
+
+		&.gallery-prev{
+			left: 10px
+		}
+
+		&.gallery-next{
+			right: 10px
+		}
+
+	}

@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    HELPERS
+\*------------------------------------*/
+
+
+/**
+ * Simply split two elements half each
+ */
+
+.split{
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+    .split--left{
+        padding-right: 15px;
+    }
+
+    .split--right{
+        padding-left: 15px;
+    }
+
+.hidden{
+    opacity: 0;
+}
+
+/**
+ * Clearfix
+ */
+
+.cf:after,
+.cf:before{
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+.exit{
+    cursor: pointer;
+}
+
+@mixin transition($duration, $parameter: all, $timing-function: ease-in-out) {
+    transition: $parameter $duration $timing-function;
+}

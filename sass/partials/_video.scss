@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    Video
+\*------------------------------------*/
+
+.video-wrapper{
+	width: 444px;
+	height: 250px;
+
+	box-sizing: border-box;
+	left: 0px;
+    position: absolute;
+    z-index: 999;
+
+    background: #000;
+    cursor: pointer;
+}
+
+	.close-video{
+		display: none;
+		padding: 3px 8px;
+		position: absolute;
+		top: -24px;
+		right: 0;
+
+		background: #000;
+		color: #fff;
+	}
+
+	.poster{
+		height: auto;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.video{
+		display: none;
+		height: auto;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+	}
+

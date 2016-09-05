@@ -1,0 +1,30 @@
+/**
+ * SECTIONS
+ */
+.section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+    .section__header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        background: #fff;
+        padding: 10px;
+
+        z-index: 999; /* Above the panels */
+    }
+
+    .section--fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .section--hidden{
+        display: none;
+    }

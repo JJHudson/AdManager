@@ -1,0 +1,79 @@
+/*------------------------------------*\
+    AMPLIFY
+\*------------------------------------*/
+
+$base-unit: 10px;
+$brand-color: #fff;
+$brand-highlight: #333;
+
+@import "partials/helpers"; // Some helpers & mixins!
+@import "partials/base"; // Base styles
+
+@import "partials/sections"; // Generic section styles
+@import "partials/buttons"; // Basic buttons styles
+@import "partials/gallery"; // Basic gallery styles
+@import "partials/video"; // Basic video styles
+@import "partials/image-pan"; // Basic Image Pan styles
+
+@import "partials/loading-section"; // Loading Section
+@import "partials/content-section"; // Content Section
+
+@import "partials/amplify"; // Amplify styles
+@import "partials/lightbox"; // Lightbox styles
+
+@import "partials/instream"; // Instream Plus styles
+
+.ad{
+    position: relative;
+    
+    border: 1px #c9c9c9 solid;
+    font-family: Arial, Sans-Serif;
+
+    text-align: center;
+    overflow: hidden;
+
+    &.billboard{
+        height: 250px;
+        width: 970px;
+    }
+
+    &.double-mpu{
+        height: 600px;
+        width: 300px;
+    }
+
+    &.instream-plus{
+        height: 250px;
+        width: 300px;
+    }
+
+    &.leaderboard{
+        height: 728px;
+        width: 90px;
+    }
+
+    &.mpu{
+        height: 250px;
+        width: 300px;
+    }
+
+    &.portrait{
+        height: 1050px;
+        width: 300px;
+
+        left: 300px;
+
+        border: 0;
+        overflow: visible;
+
+    }
+
+    &.skyscraper{
+        height: 600px;
+        width: 160px;
+    }
+
+}
+
+
+

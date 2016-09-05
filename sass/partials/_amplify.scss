@@ -1,0 +1,23 @@
+.amplify-panel{
+	display: block!important;
+	position: absolute;
+
+	height: 107%;
+	width: 100%;
+
+	&.amplify-panel-1{
+		top: -7%;
+		background: #f2f2f2;
+	}
+
+	&.amplify-panel-2{
+		top: 93%;
+		background: #c2c2c2;
+	}
+
+	.panel-expand{
+		display: block;
+		height: 7%;
+		width: 100%;
+	}
+}

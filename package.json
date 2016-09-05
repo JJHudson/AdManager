@@ -1,0 +1,26 @@
+{
+  "name": "ad",
+  "version": "1.0.0",
+  "description": "Ad template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://digital-github.bfb1.services.ipcdigital.co.uk/creative-media-digital/ad.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "latest",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-replace": "latest",
+    "grunt-sass": "^1.0.0"
+  },
+  "author": "CMD",
+  "license": "BSD"
+}
